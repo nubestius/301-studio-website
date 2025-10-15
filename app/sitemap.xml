@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Home Page -->
+  <url>
+    <loc>https://301studio.com</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://301studio.com"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://301studio.com/es"/>
+  </url>
+  
+  <!-- Singflow for WordPress -->
+  <url>
+    <loc>https://301studio.com/products/singflow-wordpress</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://301studio.com/products/singflow-wordpress"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://301studio.com/es/products/singflow-wordpress"/>
+  </url>
+  
+  <!-- Singflow for Perfex CRM -->
+  <url>
+    <loc>https://301studio.com/products/singflow-perfex</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://301studio.com/products/singflow-perfex"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://301studio.com/es/products/singflow-perfex"/>
+  </url>
+  
+  <!-- 301 Accessibility -->
+  <url>
+    <loc>https://301studio.com/products/301-accessibility</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://301studio.com/products/301-accessibility"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://301studio.com/es/products/301-accessibility"/>
+  </url>
+  
+</urlset>
