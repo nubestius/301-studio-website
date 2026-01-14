@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
 
 const _geist = Geist({ subsets: ["latin"] })
@@ -48,7 +49,7 @@ export const metadata: Metadata = {
       "Expert development of WordPress plugins, Perfex CRM modules, and custom solutions. Creators of Singflow digital signature solutions and 301 Accessibility plugin.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://301studio.com/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "301 Studio - WordPress & Perfex CRM Development",
@@ -59,7 +60,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "301 Studio - WordPress & Perfex CRM Development Experts",
     description: "Expert development of WordPress plugins, Perfex CRM modules, and custom solutions.",
-    images: ["/og-image.jpg"],
+    images: ["https://301studio.com/og-image.jpg"],
+    creator: "@301studio",
   },
   robots: {
     index: true,
@@ -73,10 +75,19 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "your-google-verification-code",
-    yandex: "your-yandex-verification-code",
+    // TODO: Add your actual verification codes
+    // google: "your-google-verification-code",
+    // yandex: "your-yandex-verification-code",
   },
-    generator: 'v0.app'
+  alternates: {
+    canonical: "https://301studio.com",
+    languages: {
+      "en": "https://301studio.com",
+      "es": "https://301studio.com/es",
+    },
+  },
+  category: "technology",
+  generator: "Next.js",
 }
 
 export default function RootLayout({
@@ -87,13 +98,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://301studio.com" />
-        <link rel="alternate" hrefLang="en" href="https://301studio.com" />
-        <link rel="alternate" hrefLang="es" href="https://301studio.com/es" />
-        <link rel="alternate" hrefLang="x-default" href="https://301studio.com" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+        <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
       </head>
       <body className={`font-sans antialiased`}>
-        {children}
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          {children}
+        </ThemeProvider>
         <Analytics />
       </body>
     </html>
