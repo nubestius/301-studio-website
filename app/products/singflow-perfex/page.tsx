@@ -16,7 +16,6 @@ const content = {
       subtitle: "Digital Signatures for Perfex CRM",
       description:
         "Enhance your Perfex CRM with powerful digital signature capabilities. Close deals faster with seamless document signing integrated directly into your CRM workflow.",
-      disclaimer: "Not affiliated with DocuSign",
       cta: "Get Started",
       ctaSecondary: "Contact Sales",
     },
@@ -83,7 +82,6 @@ const content = {
       subtitle: "Firmas Digitales para Perfex CRM",
       description:
         "Mejora tu Perfex CRM con potentes capacidades de firma digital. Cierra tratos más rápido con firma de documentos integrada directamente en tu flujo de trabajo CRM.",
-      disclaimer: "No afiliado con DocuSign",
       cta: "Comenzar",
       ctaSecondary: "Contactar Ventas",
     },
@@ -172,8 +170,7 @@ export default function SingflowPerfexPage() {
             </div>
             <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-6 text-balance">{t.hero.title}</h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-4 text-balance">{t.hero.subtitle}</p>
-            <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto leading-relaxed">{t.hero.description}</p>
-            <p className="text-sm text-muted-foreground italic mb-8">{t.hero.disclaimer}</p>
+            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">{t.hero.description}</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-base">
                 {t.hero.cta}

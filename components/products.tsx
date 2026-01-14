@@ -14,10 +14,10 @@ const content = {
       {
         icon: FileSignature,
         name: "Singflow for WordPress",
-        tagline: "Digital Signatures for WordPress",
+        tagline: "Electronic Signature Solution for WordPress",
         description:
-          "Add DocuSign-style digital signature capabilities directly to your WordPress site. Streamline document signing workflows with an intuitive, professional solution.",
-        disclaimer: "Not affiliated with DocuSign",
+          "Professional electronic signature solution with drag & drop editor, multi-signer support, complete audit trails, and legally binding signatures. Perfect for contracts, agreements, and document signing workflows.",
+        disclaimer: null,
         cta: "Learn More",
       },
       {
@@ -26,7 +26,7 @@ const content = {
         tagline: "Digital Signatures for Perfex CRM",
         description:
           "Integrate powerful digital signature functionality into Perfex CRM. Perfect for contracts, proposals, and any document requiring client signatures.",
-        disclaimer: "Not affiliated with DocuSign",
+        disclaimer: null,
         cta: "Learn More",
       },
       {
@@ -47,10 +47,10 @@ const content = {
       {
         icon: FileSignature,
         name: "Singflow para WordPress",
-        tagline: "Firmas Digitales para WordPress",
+        tagline: "Solución de Firma Electrónica para WordPress",
         description:
-          "Añade capacidades de firma digital estilo DocuSign directamente a tu sitio WordPress. Optimiza los flujos de trabajo de firma de documentos con una solución intuitiva y profesional.",
-        disclaimer: "No afiliado con DocuSign",
+          "Solución profesional de firma electrónica con editor drag & drop, soporte multi-firmante, registros de auditoría completos y firmas legalmente vinculantes. Perfecto para contratos, acuerdos y flujos de trabajo de firma de documentos.",
+        disclaimer: null,
         cta: "Más Información",
       },
       {
@@ -59,7 +59,7 @@ const content = {
         tagline: "Firmas Digitales para Perfex CRM",
         description:
           "Integra potentes funcionalidades de firma digital en Perfex CRM. Perfecto para contratos, propuestas y cualquier documento que requiera firmas de clientes.",
-        disclaimer: "No afiliado con DocuSign",
+        disclaimer: null,
         cta: "Más Información",
       },
       {

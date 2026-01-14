@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Singflow for Perfex CRM - Digital Signature Module",
   description:
-    "Add powerful digital signature capabilities to Perfex CRM. DocuSign-style document signing integrated seamlessly with your CRM workflows.",
+    "Add powerful digital signature capabilities to Perfex CRM. Professional document signing integrated seamlessly with your CRM workflows.",
   keywords: [
     "Perfex CRM signatures",
     "CRM digital signatures",
