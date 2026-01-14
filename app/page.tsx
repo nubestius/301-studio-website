@@ -7,6 +7,7 @@ import { Expertise } from "@/components/expertise"
 import { Products } from "@/components/products"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
+import { CookieBanner } from "@/components/cookie-banner"
 
 const organizationSchema = {
   "@context": "https://schema.org",
@@ -40,6 +41,7 @@ export default function Home() {
         <Products language={language} />
         <Contact language={language} />
         <Footer language={language} />
+        <CookieBanner language={language} />
       </div>
     </>
   )
